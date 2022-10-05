@@ -1,47 +1,53 @@
 # Setup
 ## Dependencies
-> :warning: necessary to download apart the types for the packages
+> :warning: It's necessary to download separate the types for the packages.
 ### Production
 - [ ] express
 - [ ] express-async-errors
 - [ ] cors
 - [ ] helmet
 - [ ] swagger
-- [ ] husk
 - [ ] morgan
 - [ ] dotenv
 - [ ] typeorm
+- [ ] postgre
+- [ ] compression
 ### Development
-- [ ] typescript
+- [X] typescript
 - [ ] autocannon
 - [ ] jest
 - [ ] ts-node-dev
-- [ ] eslint
+- [X] husk
+- [x] eslint
+- [x] commitlint
+- [x] commitzen
 - [ ] rimraf
+- [ ] ts-node-dev
 ## Commit
-- [ ] Husky hook for commitzen
-- [ ] Hysky hook for commitlint
-- [ ] commitlint accepts emoji (convention)
-- [ ] Commitzen
-- [ ] package.json for custom commitzen
+- [X] Husky hook for commitzen
+- [X] Hysky hook for commitlint
+- [X] Commitlint accepts emoji (convention)
+- [X] Commitzen
+- [X] package.json for custom commitzen
 ## Configuration files
-- [ ] commitlint
-- [ ] tsconfig
+- [X] commitlint
+- [X] tsconfig
 - [ ] jest config
 - [ ] package.json
-  - [ ] engine
-  - [ ] repository
+  - [X] engine
+  - [X] repository
   - [ ] scripts
 - [ ] Dockerfile
 - [ ] docker-compose.yml
 - [ ] .dockerignore
 - [ ] Procfile (Heroku related)
 - [ ] slugignore (Heroku related)
-- [ ] eslint
-- [ ] .editorconfig
-- [ ] .eslintignore
-- [ ] gitignore (template from GitHub)
+- [X] eslint
+- [X] .editorconfig
+- [X] .eslintignore
+- [X] gitignore (template from GitHub)
 - [ ] .env file (sample)
+  - [ ] Docker, Database, Application variables
 - [ ] swagger.json
 ## basic structure
 - [ ] routes
@@ -50,13 +56,16 @@
   - [ ] include middlewares
 - [ ] server
   - [ ] gracefull shutdown
+  - [ ] connection with database
 ## Documentation
 - [ ] Swagger
+- [ ] Redocly
 - [ ] readme file
   - [ ] about
   - [ ] demo
   - [ ] index
   - [ ] techs
+  - [ ] references/searches/problems solved
 
 ## Commands
 * ```git clone git@github.com:dimas-prates/jwt-auth-api.git```
