@@ -16,7 +16,6 @@
 - [X] typescript
 - [ ] autocannon
 - [ ] jest
-- [ ] ts-node-dev
 - [X] husk
 - [x] eslint
 - [x] commitlint
