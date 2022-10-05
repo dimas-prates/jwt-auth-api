@@ -1,0 +1,15 @@
+{
+  "name": "jwt-auth-api",
+  "version": "1.0.0",
+  "description": "project destined to learn jwt auth",
+  "main": "./build/server.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dimas-prates/jwt-auth-api.git"
+  },
+  "author": "Dimas <31516927+dimas-prates@users.noreply.github.com>",
+  "license": "MIT",
+  "engines": {
+  "node": "^14.19.x || ^16.x.x"
+  }
+}
