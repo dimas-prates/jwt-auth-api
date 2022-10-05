@@ -71,5 +71,6 @@
 * ```yarn commitizen init cz-conventional-changelog --yarn --dev --exact```
 * ```yarn husky add .husky/prepare-commit-msg "exec </dev/tty && yarn cz --hook || true"```
 * ```yarn eslint --init```
+* ```yarn tsc --init```
 * ```git add```
 * ```git commit -m ''```
