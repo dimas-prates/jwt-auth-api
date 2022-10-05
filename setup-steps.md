@@ -1,4 +1,4 @@
-# Setup 
+# Setup
 ## Dependencies
 > :warning: necessary to download apart the types for the packages
 ### Production
@@ -18,7 +18,7 @@
 - [ ] ts-node-dev
 - [ ] eslint
 - [ ] rimraf
-## Commit 
+## Commit
 - [ ] Husky hook for commitzen
 - [ ] Hysky hook for commitlint
 - [ ] commitlint accepts emoji (convention)
@@ -70,5 +70,6 @@
 * ```code commitlint.config.ts```
 * ```yarn commitizen init cz-conventional-changelog --yarn --dev --exact```
 * ```yarn husky add .husky/prepare-commit-msg "exec </dev/tty && yarn cz --hook || true"```
-* ```yarn init```
-* ```yarn init```
+* ```yarn eslint --init```
+* ```git add```
+* ```git commit -m ''```
