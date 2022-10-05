@@ -1,30 +1,32 @@
 {
-  "name": "jwt-auth-api",
-  "version": "1.0.0",
-  "description": "project destined to learn jwt auth",
-  "main": "./build/server.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:dimas-prates/jwt-auth-api.git"
-  },
-  "author": "Dimas <31516927+dimas-prates@users.noreply.github.com>",
-  "license": "MIT",
-  "engines": {
-    "node": "^14.19.x || ^16.x.x"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^17.1.2",
-    "commitizen": "^4.2.5",
-    "commitlint-config-gitmoji": "^2.2.5",
-    "cz-conventional-changelog": "3.3.0",
-    "eslint": "^8.24.0",
-    "husky": "^8.0.1",
-    "typescript": "^4.8.4"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog",
-      "types": {
+	"name": "jwt-auth-api",
+	"version": "1.0.0",
+	"description": "project destined to learn jwt auth",
+	"main": "./build/server.js",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:dimas-prates/jwt-auth-api.git"
+	},
+	"author": "Dimas <31516927+dimas-prates@users.noreply.github.com>",
+	"license": "MIT",
+	"engines": {
+		"node": "^14.19.x || ^16.x.x"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^17.1.2",
+		"@typescript-eslint/eslint-plugin": "^5.39.0",
+		"@typescript-eslint/parser": "^5.39.0",
+		"commitizen": "^4.2.5",
+		"commitlint-config-gitmoji": "^2.2.5",
+		"cz-conventional-changelog": "3.3.0",
+		"eslint": "^8.24.0",
+		"husky": "^8.0.1",
+		"typescript": "^4.8.4"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog",
+			"types": {
 				":sparkles: feat": {
 					"description": "A new feature"
 				},
@@ -59,6 +61,6 @@
 					"description": "Reverts a previous commit"
 				}
 			}
-    }
-  }
+		}
+	}
 }
