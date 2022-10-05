@@ -64,3 +64,11 @@
 * ```CTRL+SHIFT+` ```
 * ```git checkout -b setup```
 * ```yarn init```
+* ```yarn add -D husky @commitlint/cli commitlint-config-gitmoji eslint typescript commitizen```
+* ```yarn husky install```
+* ```yarn husky add .husky/commit-msg "yarn commitlint --edit ${1}"```
+* ```code commitlint.config.ts```
+* ```yarn commitizen init cz-conventional-changelog --yarn --dev --exact```
+* ```yarn husky add .husky/prepare-commit-msg "exec </dev/tty && yarn cz --hook || true"```
+* ```yarn init```
+* ```yarn init```
