@@ -7,7 +7,7 @@
 		"type": "git",
 		"url": "git@github.com:dimas-prates/jwt-auth-api.git"
 	},
-	"author": "Dimas <31516927+dimas-prates@users.noreply.github.com>",
+	"author": "Dimas",
 	"license": "MIT",
 	"engines": {
 		"node": "^14.19.x || ^16.x.x"
