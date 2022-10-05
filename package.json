@@ -10,6 +10,55 @@
   "author": "Dimas <31516927+dimas-prates@users.noreply.github.com>",
   "license": "MIT",
   "engines": {
-  "node": "^14.19.x || ^16.x.x"
+    "node": "^14.19.x || ^16.x.x"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "commitizen": "^4.2.5",
+    "commitlint-config-gitmoji": "^2.2.5",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "^8.24.0",
+    "husky": "^8.0.1",
+    "typescript": "^4.8.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog",
+      "types": {
+				":sparkles: feat": {
+					"description": "A new feature"
+				},
+				":adhesive_bandage: fix": {
+					"description": "A bug fix"
+				},
+				":memo: docs": {
+					"description": "Documentation only changes"
+				},
+				":pencil2: style": {
+					"description": "Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)"
+				},
+				":recycle: refactor": {
+					"description": "A code change that neither fixes a bug nor adds a feature"
+				},
+				":zap: perf": {
+					"description": "A code change that improves performance"
+				},
+				":test_tube: test": {
+					"description": "Adding missing tests or correcting existing tests"
+				},
+				":package: build": {
+					"description": "Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)"
+				},
+				":bricks: ci": {
+					"description": "Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)"
+				},
+				":wrench: chore": {
+					"description": "Other changes that don't modify src or test files"
+				},
+				":rewind: revert": {
+					"description": "Reverts a previous commit"
+				}
+			}
+    }
   }
 }
