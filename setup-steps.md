@@ -14,14 +14,14 @@
 - [ ] compression
 ### Development
 - [X] typescript
-- [ ] autocannon
+- [X] autocannon
 - [ ] jest
 - [X] husk
 - [x] eslint
 - [x] commitlint
 - [x] commitzen
-- [ ] rimraf
-- [ ] ts-node-dev
+- [X] rimraf
+- [X] ts-node-dev
 ## Commit
 - [X] Husky hook for commitzen
 - [X] Hysky hook for commitlint
