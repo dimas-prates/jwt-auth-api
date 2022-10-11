@@ -1,6 +1,6 @@
 # Setup
 ## Dependencies
-> :warning: It's necessary to download separate the types for the packages.
+> :warning: It's necessary to download the types separated for the packages.
 ### Production
 - [ ] express
 - [ ] express-async-errors
