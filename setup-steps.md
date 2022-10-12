@@ -2,20 +2,20 @@
 ## Dependencies
 > :warning: It's necessary to download the types separated for the packages.
 ### Production
-- [ ] express
-- [ ] express-async-errors
-- [ ] cors
+- [X] express
+- [X] express-async-errors
+- [X] cors
 - [ ] helmet
 - [ ] swagger
-- [ ] morgan
-- [ ] dotenv
-- [ ] typeorm
-- [ ] postgre
-- [ ] compression
+- [X] morgan
+- [X] dotenv
+- [X] typeorm
+- [X] postgre
+- [X] compression
 ### Development
 - [X] typescript
 - [X] autocannon
-- [ ] jest
+- [X] jest
 - [X] husk
 - [x] eslint
 - [x] commitlint
@@ -32,29 +32,29 @@
 - [X] commitlint
 - [X] tsconfig
 - [X] jest config
-- [ ] package.json
+- [X] package.json
   - [X] engine
   - [X] repository
-  - [ ] scripts
-- [ ] Dockerfile
-- [ ] docker-compose.yml
-- [ ] .dockerignore
-- [ ] Procfile (Heroku related)
-- [ ] slugignore (Heroku related)
+  - [X] scripts
+- [X] Dockerfile
+- [X] docker-compose.yml
+- [X] .dockerignore
+- [X] Procfile (Heroku related)
+- [X] slugignore (Heroku related)
 - [X] eslint
 - [X] .editorconfig
 - [X] .eslintignore
 - [X] gitignore (template from GitHub)
-- [ ] .env file (sample)
-  - [ ] Docker, Database, Application variables
+- [X] .env file (sample)
+  - [X] Docker, Database, Application variables
 - [ ] swagger.json
 ## basic structure
-- [ ] routes
-  - [ ] healthcheck
-- [ ] app
-  - [ ] include middlewares
-- [ ] server
-  - [ ] gracefull shutdown
+- [X] routes
+  - [X] healthcheck
+- [X] app
+  - [X] include middlewares
+- [X] server
+  - [X] gracefull shutdown
   - [ ] connection with database
 ## Documentation
 - [ ] Swagger
