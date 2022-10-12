@@ -5,7 +5,7 @@
 - [:memo: About](#memo-about)
 - [:bento: Techs and Concepts](#bento-techs-and-concepts)
 - [:rocket: How to run this project](#rocket-how-to-run-this-project)
-- [Searches/Problems during development](#searchesproblems-during-development)
+- [:mag: Searches/Problems during development](#mag-searchesproblems-during-development)
 # :technologist: demo
 
 # :memo: About
@@ -24,7 +24,7 @@ Therefore, anytime when it's necessary this repository will be available as a re
 
 ```
 
-# Searches/Problems during development
+# :mag: Searches/Problems during development
 * ***ERROR:*** ENOSPC: System limit for number of file watchers reached\
   ***[FIX](https://stackoverflow.com/questions/55763428/react-native-error-enospc-system-limit-for-number-of-file-watchers-reached#:~:text=While%20524%2C288%20is%20the%20maximum,wish%20to%20lower%20the%20number.):***
   ```bash
