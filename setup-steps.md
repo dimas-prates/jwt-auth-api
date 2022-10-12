@@ -5,7 +5,7 @@
 - [X] express
 - [X] express-async-errors
 - [X] cors
-- [ ] helmet
+- [X] helmet
 - [ ] swagger
 - [X] morgan
 - [X] dotenv
@@ -82,3 +82,9 @@
 * ```yarn tsc --init```
 * ```git add```
 * ```git commit -m ''```
+* ```yarn add -D typescript ts-node-dev rimraf```
+* ```yarn tsc --init```
+* ```yarn add -D jest @types/jest ts-jest autocannon```
+* ```yarn jest --init```
+* ```yarn add express express-async-errors dotenv pg typeorm compression cors helmet morgan```
+* ```yarn add -D @types/node @types/express @types/compression @types/cors @types/helmet @types/morgan```
