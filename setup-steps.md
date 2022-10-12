@@ -88,3 +88,5 @@
 * ```yarn jest --init```
 * ```yarn add express express-async-errors dotenv pg typeorm compression cors helmet morgan```
 * ```yarn add -D @types/node @types/express @types/compression @types/cors @types/helmet @types/morgan```
+* ```yarn add swagger-ui-express```
+* ```yarn add -D @types/swagger-ui-express```
