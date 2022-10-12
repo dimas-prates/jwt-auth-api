@@ -6,7 +6,7 @@
 - [X] express-async-errors
 - [X] cors
 - [X] helmet
-- [ ] swagger
+- [X] swagger
 - [X] morgan
 - [X] dotenv
 - [X] typeorm
@@ -57,14 +57,14 @@
   - [X] gracefull shutdown
   - [ ] connection with database
 ## Documentation
-- [ ] Swagger
+- [X] Swagger
 - [ ] Redocly
-- [ ] readme file
-  - [ ] about
+- [X] readme file
+  - [X] about
   - [ ] demo
-  - [ ] index
+  - [X] index
   - [ ] techs
-  - [ ] references/searches/problems solved
+  - [X] references/searches/problems solved
 
 ## Commands
 * ```git clone git@github.com:dimas-prates/jwt-auth-api.git```
