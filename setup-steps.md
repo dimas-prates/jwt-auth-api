@@ -31,7 +31,7 @@
 ## Configuration files
 - [X] commitlint
 - [X] tsconfig
-- [ ] jest config
+- [X] jest config
 - [ ] package.json
   - [X] engine
   - [X] repository
