@@ -1,4 +1,12 @@
 # Setup
+  - [Dependencies](#dependencies)
+    - [Production](#production)
+    - [Development](#development)
+  - [Commit](#commit)
+  - [Configuration files](#configuration-files)
+  - [basic structure](#basic-structure)
+  - [Documentation](#documentation)
+  - [Commands](#commands)
 ## Dependencies
 > :warning: It's necessary to download the types separated for the packages.
 ### Production
@@ -47,7 +55,7 @@
 - [X] gitignore (template from GitHub)
 - [X] .env file (sample)
   - [X] Docker, Database, Application variables
-- [ ] swagger.json
+- [X] swagger.json
 ## basic structure
 - [X] routes
   - [X] healthcheck
@@ -61,9 +69,9 @@
 - [ ] Redocly
 - [X] readme file
   - [X] about
-  - [ ] demo
+  - [X] demo
   - [X] index
-  - [ ] techs
+  - [X] techs
   - [X] references/searches/problems solved
 
 ## Commands
