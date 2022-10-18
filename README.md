@@ -6,6 +6,7 @@
 - [:bento: Techs and Concepts](#bento-techs-and-concepts)
 - [:rocket: How to run this project](#rocket-how-to-run-this-project)
 - [:mag: Searches/Problems during development](#mag-searchesproblems-during-development)
+
 # :technologist: demo
 
 # :memo: About
@@ -13,11 +14,18 @@ This project aims to register the study of authentication using JWT and its feat
 Therefore, anytime when it's necessary this repository will be available as a resource for consultation.
 
 # :bento: Techs and Concepts
-| Techs   | Concepts      |
-| ------- | ------------- |
-| Express | clean code    |
-| Git     | Git flow      |
-| Swagger | Documentation |
+| Techs      | Concepts             |
+| ---------- | -------------------- |
+| Express    | Clean Code           |
+| Git        | Git flow             |
+| TypeScript | Layer system         |
+| JWT        | Authentication       |
+| Swagger    | Documentation        |
+| Jest       | Unit Test            |
+| TypeORM    | Integration Test     |
+| Linting    | Performance Test     |
+| PostgreSQL | Graceful Shutdown    |
+| Docker     | Conventional Commits |
 
 # :rocket: How to run this project
 ```bash
