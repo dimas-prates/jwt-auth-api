@@ -8,6 +8,7 @@ export class HealthCheck {
       messagge: "OK",
       timeStamp: Date.now()
     };
+
     return res.json(healthCheck);
   }
 }
