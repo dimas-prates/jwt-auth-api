@@ -97,3 +97,4 @@
 * ```yarn add -D @types/node @types/express @types/compression @types/cors @types/helmet @types/morgan```
 * ```yarn add swagger-ui-express```
 * ```yarn add -D @types/swagger-ui-express```
+* ```mkdir -vp src/{migrations,database,entities}```
