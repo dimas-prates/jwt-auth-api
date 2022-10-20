@@ -94,8 +94,8 @@
     "prebuild": "rimraf ./build",
     "build": "yarn prebuild && tsc",
     "build:prod": "yarn build && rimraf ./src ./tsconfig.json",
-    "migration:generate": "typeorm-ts-node-commonjs -d ./src/data-source.ts migration:generate ./src/migrations/migration",
-    "migration:run": "typeorm-ts-node-commonjs -d ./src/data-source.ts migration:run",
+    "migration:generate": "typeorm-ts-node-commonjs -d ./src/database/data-source.ts migration:generate ./src/migrations/migration",
+    "migration:run": "typeorm-ts-node-commonjs -d ./src/database/data-source.ts migration:run",
     "test": "jest",
     "test:perf": "autocannon -c 500 -d 30 --workers 10 --renderStatusCodes --latency --warmup [ -c 1 -d 2]"
   }
