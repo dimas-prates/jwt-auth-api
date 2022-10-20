@@ -63,10 +63,9 @@
   - [X] include middlewares
 - [X] server
   - [X] gracefull shutdown
-  - [ ] connection with database
+  - [X] connection with database
 ## Documentation
 - [X] Swagger
-- [ ] Redocly
 - [X] readme file
   - [X] about
   - [X] demo
