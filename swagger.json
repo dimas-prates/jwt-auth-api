@@ -1,0 +1,92 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Authentication API",
+    "description": "How to authentiate using JWT",
+    "license": {
+      "name": "MIT",
+      "url": "www.google.com"
+    },
+    "termsOfService": "http://localhost:3333/terms",
+    "contact": {
+      "name": "Support API",
+      "email": "contact@domain.com"
+    },
+    "x-logo": {
+      "url": "https://source.unsplash.com/400x200"
+    },
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3333",
+      "description": "Production API"
+    }
+  ],
+  "paths": {
+    "/healthCheck": {
+      "get": {
+        "description": "Health check route, to verify the app status",
+        "summary": "Check app health",
+        "tags": [
+          "health check"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Health"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "security": [],
+  "components": {
+    "schemas": {
+      "Health": {
+        "type": "object",
+        "properties": {
+          "uptime": {
+            "type": "integer",
+            "description": "Time of server's running in minutes",
+            "example": 48.293016006
+          },
+          "responseTime": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            },
+            "example": [
+              1142590,
+              902694193
+            ]
+          },
+          "messagge": {
+            "type": "string",
+            "description": "Message after server's response",
+            "example": "OK"
+          },
+          "timeStamp": {
+            "type": "integer",
+            "format": "date-time",
+            "description": "Unix time stamp or Unix epoch",
+            "example": 1666230984211
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  }
+}
