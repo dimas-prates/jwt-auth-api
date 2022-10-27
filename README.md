@@ -41,4 +41,6 @@ Therefore, anytime when it's necessary this repository will be available as a re
   sysctl fs.inotify.max_user_watches
   ```
 ---
-:copyright: Dimas Prates
+<p align="center">
+  :copyright: Dimas Prates
+</p>
